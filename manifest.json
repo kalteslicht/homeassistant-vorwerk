@@ -4,7 +4,7 @@
   "config_flow": true,
   "documentation": "https://github.com/trunneml/homeassistant-vorwerk",
   "requirements": [
-    "pybotvac==0.0.28"
+    "pybotvac==0.0.29"
   ],
   "codeowners": [
     "@trunneml"
