@@ -3,7 +3,7 @@
 **Notice:** The original repository is now archived and will no longer be maintained.  
 
 This fork is primarily meant for my own personal use to keep this integration functioning for my VR200. I do not plan to do any development above that.
-Currently the integrations works with Home Assistant 2025.12
+Currently the integrations works with Home Assistant 2026.10
 If this is helpfull to you, please feel free to download and use.
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
