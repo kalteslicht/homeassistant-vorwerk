@@ -21,4 +21,11 @@ With the new Vorwerk App and authentication the Home Assistant Neato component d
 
 ## Installation
 
- Use HACS or checkout this repository and copy the `custom_components/vorwerk` folder in your home assistant configuration under: `<HA config directory>/custom_components/<domain>`
+### HACS
+
+1. In HACS, add `https://github.com/kalteslicht/homeassistant-vorwerk` as a custom repository of type **Integration**.
+2. Download the integration and restart Home Assistant.
+
+### Manual
+
+The integration files sit at the top level of this repository. Copy `__init__.py`, `config_flow.py`, `const.py`, `manifest.json`, `sensor.py`, `services.yaml`, `strings.json`, `switch.py`, `vacuum.py` and the `translations/` folder into `<HA config directory>/custom_components/vorwerk/`, then restart Home Assistant.
